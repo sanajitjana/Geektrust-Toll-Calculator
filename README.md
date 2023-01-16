@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -37,96 +29,53 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### Context
+
+ A new road has been built and is now open for general traffic. The road construction company needs your help in calculating the money collection via toll from travellers. 
+ 
+ ### FASTAG
+ 
+ The construction company prefers money to be collected via FASTAG. FASTAG is an electronic payment utility that can be used to pay tolls.  All vehicles have a vehicle number. The FASTAG is associated with a vehicle number.
+ If there is no sufficient balance in the FASTAG, then the remaining cost of the toll needs to be paid by cash. If travellers do not have a FASTAG they can make the payment by Cash. There is a flat fee of 40 for such cash transactions.
 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### Toll charges
 
-Here's why:
+ Amount of toll collected varies based on the weight of the vehicle.
+ 
+ ![image](https://user-images.githubusercontent.com/76105799/212706250-d1d8fae5-053c-40ff-88ce-bcdd4858044b.png)
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+ 
+ ### Journey Type
+ 
+ Toll charges are different for a single trip and for a return journey. When a vehicle does a return journey, there is a discount of 50% for the return journey.
+For eg: If a Van passes through the toll first time, the toll collected is 100. If the same Van passes again through the toll, the amount collected for the return journey is 50. If the Van passes a third time, it will be treated as a new single journey and the toll collected is 100. 
+ 
+ 
+ ### Goal
+ Your task is to build a solution that calculates various tolls collected and print the payment summary and vehicle type summary.
+ 
+ - The payment summary should give a breakup of the total amount collected and the total discount given. 
+ - The vehicle type summary should display the total number of vehicles passed per type in descending order of the collection amount.
+ 
+### Assumptions
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+ - All vehicles passing through has a vehicle number. 
+ - Some vehicles may not have FASTAG, in that case the toll amount is paid by cash. 
+ - Some vehicles that have FASTAG may not have sufficient money to pay the toll, then the remaining amount is paid by cash. 
+ - Tolls are always collected from FASTAG first, then only cash is taken if needed. 
+ - Every cash transaction has a flat fee of 40. 
+ - Cash amount collected includes the toll charges paid and the flat fee of 40. 
+ - The vehicle count is calculated based on journeys. eg: if the same car passes twice, the count is 2.
 
-Use the `BLANK_README.md` to get started.
+### Sample Input/Output 1
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![image](https://user-images.githubusercontent.com/76105799/212706747-99bd47c4-8c3a-4ff8-8223-4ef3453ac090.png)
 
-### Built With
+### Explanation
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+![image](https://user-images.githubusercontent.com/76105799/212706836-046df108-e61b-4d43-9177-baa01973de20.png)
 
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
-
-See the [open issues](https://github.com/sanajitjana/Geektrust-Toll-Calculator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,35 +104,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
 [contributors-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/graphs/contributors
@@ -197,7 +119,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/sanajitjana
-[product-screenshot]: images/screenshot.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
