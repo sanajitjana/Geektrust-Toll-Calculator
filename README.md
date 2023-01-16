@@ -1,83 +1,44 @@
 <a name="readme-top"></a>
 
-<!--
-*** Thanks for checking out the Project-Starter-Readme-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sanajitjana/Project-Starter-Readme-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/sanajitjana/Geektrust-Toll-Calculator">
+    <img src="https://user-images.githubusercontent.com/76105799/212701060-aa4dca7e-23e0-4595-b543-a0d8e43fec26.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Project-Starter-Readme-Template</h3>
+  <h1 align="center">Toll Calculator</h1>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    The app where we calculate the money collection via toll from travelers as per vehicle type and their return journey.
     <br />
-    <a href="https://github.com/sanajitjana/Project-Starter-Readme-Template"><strong>Explore the docs »</strong></a>
+    <a href=""><strong></strong></a>
     <br />
     <br />
-    <a href="https://github.com/sanajitjana/Project-Starter-Readme-Template">View Demo</a>
+    <a href="https://www.geektrust.com/challenge/toll-calculator">View Question</a>
     ·
-    <a href="https://github.com/sanajitjana/Project-Starter-Readme-Template/issues">Report Bug</a>
+    <a href="https://github.com/sanajitjana/Geektrust-Toll-Calculator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sanajitjana/Project-Starter-Readme-Template/issues">Request Feature</a>
+    <a href="https://github.com/sanajitjana/Geektrust-Toll-Calculator/issues">Request Feature</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+![Score](https://user-images.githubusercontent.com/76105799/212702921-8d070a00-49ac-4fd8-bd4d-6c0823016093.jpg)
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -104,7 +65,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [![Svelte][svelte.dev]][svelte-url]
 - [![Laravel][laravel.com]][laravel-url]
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +126,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Chinese
   - [ ] Spanish
 
-See the [open issues](https://github.com/sanajitjana/Project-Starter-Readme-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/sanajitjana/Geektrust-Toll-Calculator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,16 +185,16 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/sanajitjana/Project-Starter-Readme-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/sanajitjana/Project-Starter-Readme-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sanajitjana/Project-Starter-Readme-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/sanajitjana/Project-Starter-Readme-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/sanajitjana/Project-Starter-Readme-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/sanajitjana/Project-Starter-Readme-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sanajitjana/Project-Starter-Readme-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/sanajitjana/Project-Starter-Readme-Template/issues
-[license-shield]: https://img.shields.io/github/license/sanajitjana/Project-Starter-Readme-Template.svg?style=for-the-badge
-[license-url]: https://github.com/sanajitjana/Project-Starter-Readme-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
+[contributors-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
+[forks-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
+[stars-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
+[issues-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/issues
+[license-shield]: https://img.shields.io/github/license/sanajitjana/Geektrust-Toll-Calculator.svg?style=for-the-badge
+[license-url]: https://github.com/sanajitjana/Geektrust-Toll-Calculator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/sanajitjana
 [product-screenshot]: images/screenshot.png
@@ -253,4 +213,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
 [jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[jquery-url]: https://jquery.com
